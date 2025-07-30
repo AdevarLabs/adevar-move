@@ -1,0 +1,34 @@
+{
+  "name": "adevar-move",
+  "version": "1.0.0",
+  "description": "CLI tool to scope Move projects for auditing - counts lines of code excluding comments, blank lines, and test macros",
+  "main": "index.js",
+  "bin": {
+    "adevar-move": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["move", "audit", "cli", "scope", "blockchain", "aptos", "sui", "lines-of-code", "adevar"],
+  "author": "0xnirlin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xnirlin/adevar-move.git"
+  },
+  "homepage": "https://github.com/0xnirlin/adevar-move#readme",
+  "bugs": {
+    "url": "https://github.com/0xnirlin/adevar-move/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    ".gitignore"
+  ],
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}
